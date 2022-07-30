@@ -4,11 +4,11 @@ During every Parliament session (Lok Sabha or Rajya Sabha), the first hour is ca
 
 In India, where official reports may be delayed or be unavailable online, Parliament Questions help journalists access latest data on a wide range of issues.
 
-This automatic scraper daily extracts questions and answers from <b>both the Lok Sabha and Rajya Sabha</b> based on the ministry <b> and exports a csv to the repository with links to the answers</b>. It also sends you an email when new questions are uploaded.
+This automatic scraper <b>daily extracts questions and answers from both the Lok Sabha and Rajya Sabha</b> based on the ministry <b> and exports a csv to the repository with links to the answers</b>. It also sends you an email when new questions are uploaded.
 
 The scraper, by default extracts answers given by the Women and Child Development Ministry but the code can be customised by just changing the name of the ministry.
 
-## Notebooks
+## Notebook
 
 I have also uploaded a jupyter notebook named ```Parliament_Questions.ipynb``` in case you wish to manually do the scraping. Running the notebook will give you two csv files for Lok Sabha and Rajya Sabha data.
 
