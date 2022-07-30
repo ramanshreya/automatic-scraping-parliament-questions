@@ -21,6 +21,6 @@ jobs:
       # - name: Install software
       #   run: sudo apt install -y chromium-browser
       - name: Install all necessary packages
-        run: pip install requests beautifulsoup4 pandas webdriver-manager selenium
+        run: pip install requests beautifulsoup4 pandas webdriver-manager selenium lxml
       - name: Run the scraping script
         run: python scraper.py
