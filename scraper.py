@@ -11,7 +11,7 @@ import time
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.utils import ChromeType
+from webdriver_manager.core.utils import ChromeType
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
@@ -124,7 +124,6 @@ df.to_csv("LS_WCD.csv", index=False)
 # In[14]:
 
 
-driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 driver.get("https://rajyasabha.nic.in/Questions/IntegratedSearchForm")
 
 
